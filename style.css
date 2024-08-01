@@ -1,0 +1,113 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Outfit:wght@100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap");
+:root {
+  --preto: #242424;
+  --branco: #f4f4f4;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: var(--preto);
+  color: var(--branco);
+  font-family: "Poppins";
+  margin: 10px 50px;
+}
+body main .minhaFoto {
+  width: 150px;
+  border-radius: 50%;
+  border: 2px solid #008f8f;
+  margin-top: 15px;
+}
+body main .primeira {
+  margin-top: 10px;
+}
+body main .primeira h1 {
+  margin-top: 10px;
+  font-size: 30px;
+  color: #008f8f;
+}
+body main .primeira p {
+  margin-top: 10px;
+  margin-bottom: 20px;
+  font-size: 15px;
+}
+body main .primeira a {
+  text-decoration: none;
+  color: var(--branco);
+}
+body main .primeira a:hover {
+  text-decoration: underline;
+}
+body main .segunda h1 {
+  margin-top: 20px;
+  color: #008f8f;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+body main .segunda .filmes {
+  display: none;
+}
+body main .segunda ol {
+  margin-top: 10px;
+  margin-left: 20px;
+  color: #008f8f;
+  font-size: 15px;
+}
+body main .segunda a {
+  text-decoration: none;
+  color: var(--branco);
+  font-size: 18px;
+}
+body main .segunda a:hover {
+  text-decoration: underline;
+}
+body main .terceira h1 {
+  margin-top: 20px;
+  color: #008f8f;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+body main .terceira .musicas {
+  display: none;
+  margin-bottom: 60px;
+}
+body main .terceira ul {
+  color: #008f8f;
+  margin-top: 10px;
+  margin-left: 20px;
+  font-size: 15px;
+}
+body main .terceira a {
+  text-decoration: none;
+  color: var(--branco);
+  font-size: 18px;
+}
+body main .terceira a:hover {
+  text-decoration: underline;
+}
+body footer {
+  display: flex;
+  justify-content: center;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  background-color: #181818;
+  width: 100%;
+  padding: 10px;
+}
+body footer a {
+  color: #008f8f;
+}
+
+.baixo {
+  width: 24px;
+  margin-left: 5px;
+  cursor: pointer;
+}/*# sourceMappingURL=style.css.map */
